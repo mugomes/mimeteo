@@ -1,0 +1,9 @@
+#folders
+bin/
+fyne-cross/
+
+#files
+mgcheckhash.spec
+compile.sh
+mghp.go
+mga.go

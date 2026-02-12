@@ -25,8 +25,11 @@ import (
 const VERSION_APP = "1.0.0"
 
 func main() {
+	sIcon := fyne.NewStaticResource("mimeteo.png", resourceIconPngData)
+
 	app := app.NewWithID("mg.mimeteo")
 	app.Settings().SetTheme(&myDarkTheme{})
+	app.SetIcon(sIcon)
 
 	frmMain := app.NewWindow("MiMeteo")
 	frmMain.CenterOnScreen()

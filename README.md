@@ -1,8 +1,5 @@
 # MiMeteo
 
-> [!NOTE]
-> This repository has been migrated to Codeberg, please see: https://codeberg.org/bluice/mimeteo
-
 MiMeteo é um software para ver a previsão do tempo no Brasil.
 
 ---
